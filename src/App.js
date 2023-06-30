@@ -1,14 +1,32 @@
-import React from "react";
-import Weather from "./Weather";
 import "./App.css";
+import SearchEngine from "./SearchEngine";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello every body</h1>
-        <Weather city="Rasht" />
-      </header>
+      <h1> Weather App </h1>
+      <SearchEngine />
+      <footer>
+        this is an{" "}
+        <a
+          href="https://github.com/HooriehAryan/weather-react"
+          className="footer-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-Sourced code
+        </a>{" "}
+        by{" "}
+        <a
+          href="https://www.linkedin.com/in/Hoorieh/"
+          className="footer-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Hoorieh Aryan
+        </a>
+      </footer>
     </div>
   );
 }
