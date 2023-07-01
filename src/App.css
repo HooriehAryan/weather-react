@@ -1,5 +1,9 @@
-.SearchEngine {
-  padding: 30px;
+body {
+  background: radial-gradient(
+    circle at 25% 50%,
+    rgb(252, 239, 183) 20%,
+    rgb(194, 223, 252) 80%
+  );
 }
 .App {
   margin: 30px;
@@ -7,4 +11,7 @@
 }
 .App .footer-link:hover {
   font-weight: bold;
+}
+footer {
+  text-align: center;
 }
